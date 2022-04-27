@@ -4,3 +4,7 @@ dan penjajaran antar item dalam sebuah container.
 
 1 Dimensi ?
 Hanya dapat mengatur 1 dimensi pada saat tetentu, antara baris atau kolom, tidak bisa keduanya sekaligus.
+
+Ada 2 hal yang perlu di ketahui :
+1. container (bungkus)
+2. items (child)
