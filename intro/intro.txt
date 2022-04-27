@@ -8,3 +8,17 @@ Hanya dapat mengatur 1 dimensi pada saat tetentu, antara baris atau kolom, tidak
 Ada 2 hal yang perlu di ketahui :
 1. container (bungkus)
 2. items (child)
+
+Istlah Lainnya :
+- Main axis (horizontal)
+- cross axis (vertical)
+- ukuran dari container (main size)
+- ukuran dari column (cross size)
+  
+  horizontal :
+- main start (posisi awal)
+- main end (posisi akhir)
+
+  vertical :
+- cross start (posisi awal)
+- cross end (posisi akhir)
