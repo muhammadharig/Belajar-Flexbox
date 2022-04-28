@@ -34,3 +34,7 @@
 /* .container div.tiga {
   font-size: 40px;
 } */
+
+.satu {
+  order: 2;
+}
