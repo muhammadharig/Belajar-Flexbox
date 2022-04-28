@@ -16,7 +16,9 @@
   /* justify-content: space-evenly; */
 
   /* align-items untuk mengatur perilaku penjajaran items terhadap cross-axis (vertikal) flex-start | flex-end | center | strech | baseline*/
-  align-items: baseline;
+  /* align-items: baseline; */
+
+  /* align-content untuk mengatur jarak antar items terhadap cross axis (hanya berfungsi ketika items lebih dari 1 baris) */
 }
 
 .container div {
