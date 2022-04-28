@@ -35,6 +35,10 @@
   font-size: 40px;
 } */
 
-.satu {
+/* properti yang ada pada items */
+/* 1. order untuk memindahkan items tanpa menyentuh html */
+/* .satu {
   order: 2;
-}
+} */
+
+/* 2. flex-grow untuk mengatur ukuran dari suatu items (responsive) */
