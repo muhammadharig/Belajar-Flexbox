@@ -4,6 +4,7 @@
   margin: 30px auto;
   border: 1px solid skyblue;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .container div {
