@@ -5,6 +5,10 @@
   display: flex;
   /* flex-direction, untuk mengatur arah / ururutan items di dalam container column, column reverse, row, row reverse*/
   /* flex-direction: column-reverse; */
+
+  /* secara bawaan, semua item di container berada satu baris, meskipun ukurannya tidak cukup.
+
+  wrap memungkinkan untuk memindahkan items ke baris di bwahnya */
 }
 
 .container div {
