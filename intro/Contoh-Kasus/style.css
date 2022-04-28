@@ -3,6 +3,7 @@
   border: 5px solid black;
   margin: 30px auto;
   display: flex;
+  /* flex-direction, untuk mengatur arah / ururutan items di dalam container column, column reverse, row, row reverse*/
   /* flex-direction: column-reverse; */
 }
 
