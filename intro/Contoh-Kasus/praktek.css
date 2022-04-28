@@ -5,6 +5,7 @@
   border: 1px solid skyblue;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .container div {
