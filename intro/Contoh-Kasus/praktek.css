@@ -1,3 +1,13 @@
 .container {
+  width: 800px;
+  height: 150px;
+  margin: 30px auto;
   border: 1px solid skyblue;
+  display: flex;
+}
+
+.container div {
+  background-color: orange;
+  margin: 2px;
+  width: 150px;
 }
