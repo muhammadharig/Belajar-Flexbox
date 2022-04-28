@@ -9,11 +9,15 @@
   /* secara bawaan, semua item di container berada satu baris, meskipun ukurannya tidak cukup.
 
   wrap memungkinkan untuk memindahkan items ke baris di bwahnya */
+  /* flex-wrap: wrap; */
+
+  /* justify-content untuk mengatur rata dari elemen-elemen didalamnya : flex-start, flex-end, center, space between, space-around, space evenly */
+  /* justify-content: space-evenly; */
 }
 
 .container div {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   background-color: blue;
   margin: 2px;
 }
