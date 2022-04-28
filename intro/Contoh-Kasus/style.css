@@ -1,6 +1,6 @@
 .container {
   width: 600px;
-  /* height: 400px; */
+  height: 150px;
   border: 5px solid black;
   margin: 30px auto;
   display: flex;
@@ -23,9 +23,16 @@
   align-items: space-around; */
 }
 
+/* 2. flex-grow untuk mengatur ukuran dari suatu items (responsive) */
+
 .container div {
-  background-color: blue;
+  background-color: rgb(5, 255, 205);
   margin: 2px;
+  flex-grow: 1;
+}
+
+.container div.dua {
+  flex-grow: 3;
 }
 
 /* untuk mengetahui efek dari align item baseline */
@@ -39,4 +46,4 @@
   order: 2;
 } */
 
-/* 2. flex-grow untuk mengatur ukuran dari suatu items (responsive) */
+/* align-self mengatur perilaku penjajaran sebuah item yang spesifik terhadap cross axis */
