@@ -16,7 +16,7 @@
   /* justify-content: space-evenly; */
 
   /* align-items untuk mengatur perilaku penjajaran items terhadap cross-axis (vertikal) flex-start | flex-end | center | strech | baseline*/
-  /* align-items: baseline; */
+  /* align-items: flex-start; */
 
   /* align-content untuk mengatur jarak antar items terhadap cross axis (hanya berfungsi ketika items lebih dari 1 baris) flex-start | flex-end |center | space-between | space-around*/
   /* flex-wrap: wrap;
@@ -33,6 +33,8 @@
 
 .container div.dua {
   flex-grow: 3;
+  /* align-self: flex-end; */
+  align-self: center;
 }
 
 /* untuk mengetahui efek dari align item baseline */
@@ -46,4 +48,4 @@
   order: 2;
 } */
 
-/* align-self mengatur perilaku penjajaran sebuah item yang spesifik terhadap cross axis */
+/* align-self mengatur perilaku penjajaran sebuah item yang spesifik terhadap cross axis auto | flex-start |flex-end | center | baseline | strech*/
